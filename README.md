@@ -8,26 +8,6 @@ An AI agent skill that guides you through integrating [Latitude](https://app.lat
 npx skills add latitude-dev/telemetry-skill
 ```
 
-Or install manually by copying the skill folder into your agent's skill directory:
-
-**Cursor**
-
-```bash
-cp -r latitude-telemetry .cursor/skills/
-```
-
-**Claude Code**
-
-```bash
-cp -r latitude-telemetry .claude/skills/
-```
-
-**Codex CLI**
-
-```bash
-cp -r latitude-telemetry .agents/skills/
-```
-
 ## Usage
 
 Once installed, ask your AI agent to add Latitude telemetry to your project. The skill will determine the best approach for your stack and walk you through the implementation.
